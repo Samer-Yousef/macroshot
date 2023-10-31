@@ -1,0 +1,10 @@
+setup project tutorial: https://www.youtube.com/watch?v=WZmevodgNEA&t=640s&ab_channel=AmitavRoy
+    install electron first
+    install elecrtonmon
+    edits to package.json
+    create main.js file
+    create index.html file
+
+to start electonmon use this command in terminal:
+    npm run dev:watch
+

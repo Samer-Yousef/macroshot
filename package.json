@@ -1,0 +1,24 @@
+{
+  "name": "mshot",
+  "version": "0.0.1",
+  "description": "Macroscopic Imaging",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev:watch": "npx electronmon --trace-warnings .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samer-Yousef/Electron-MacroShot.git"
+  },
+  "author": "SY",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Samer-Yousef/Electron-MacroShot/issues"
+  },
+  "homepage": "https://github.com/Samer-Yousef/Electron-MacroShot#readme",
+  "dependencies": {
+    "electron": "^27.0.2"
+  }
+}
