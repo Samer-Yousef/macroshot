@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Macroscopic Imaging",
   "main": "main.js",
-  
   "scripts": {
     "start": "electron .",
     "dev:watch": "npx electronmon --trace-warnings .",
@@ -21,6 +20,6 @@
   },
   "homepage": "https://github.com/Samer-Yousef/Electron-MacroShot#readme",
   "devDependencies": {
-    "electron": "^27.0.2"
+    "electron": "^27.0.3"
   }
 }
