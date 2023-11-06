@@ -17,8 +17,8 @@ function createMainWindow() {
         protocol: 'file'
     });
 
-    mainWindow.loadURL(starturl);
-} 
+    mainWindow.loadURL('http://localhost:3000');
+}   
  
 app.whenReady().then(createMainWindow)
  

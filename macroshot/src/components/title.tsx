@@ -8,7 +8,7 @@ const FabricCanvas = () => {
         const canvas = new fabric.Canvas(canvasEl.current);
 
         // Load an image and add it to the canvas
-        fabric.Image.fromURL('mc.jpg', (img) => {
+        fabric.Image.fromURL('../../mc.jpg', (img) => {
             // Optionally set some options
             img.set({
                 left: 100,
