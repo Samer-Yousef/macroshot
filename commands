@@ -8,3 +8,8 @@ setup project tutorial: https://www.youtube.com/watch?v=WZmevodgNEA&t=640s&ab_ch
 to start electonmon use this command in terminal:
     npm run dev:watch
 
+npm run build
+
+git add .
+git commit -m "a message"
+git push origin main

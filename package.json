@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "Macroscopic Imaging",
   "main": "main.js",
+  
   "scripts": {
     "start": "electron .",
     "dev:watch": "npx electronmon --trace-warnings .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
     "url": "https://github.com/Samer-Yousef/Electron-MacroShot/issues"
   },
   "homepage": "https://github.com/Samer-Yousef/Electron-MacroShot#readme",
-  "dependencies": {
+  "devDependencies": {
     "electron": "^27.0.2"
   }
 }
