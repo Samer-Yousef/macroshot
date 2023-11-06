@@ -18,6 +18,7 @@ function createMainWindow() {
     });
 
     mainWindow.loadURL(starturl);
-}
-
+} 
+ 
 app.whenReady().then(createMainWindow)
+ 
